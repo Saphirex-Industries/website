@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { render } from 'react-dom';
+import { CssBaseline } from '@mui/material';
+import App from './containers/App';
 
-ReactDOM.render(
-  <React.StrictMode>
+render(
+  <CssBaseline>
     <App />
-  </React.StrictMode>,
+  </CssBaseline>,
   document.getElementById('root')
 );
