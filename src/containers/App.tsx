@@ -5,11 +5,12 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import ReactTextTransition, { presets } from 'react-text-transition';
 
 const TYPES: string[] = [
-  'servers',
   'applications',
   'mobile applications',
   'web services',
-  'full-stack applications'
+  'full-stack applications',
+  'real-time applications',
+  'game servers'
 ];
 
 const Slogan = ({ index }: { index: number }) => (
