@@ -1,0 +1,7 @@
+.glow {
+    transition: all 0.5s linear;
+
+    &:hover {
+        filter: drop-shadow(0px 0px 10px rgba(10, 200, 220, .8));
+    }
+}
